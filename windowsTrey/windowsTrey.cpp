@@ -73,7 +73,7 @@ LRESULT CALLBACK WindowProc(HWND hWnd, UINT uMsg, WPARAM wParam,
 		if (LOWORD(wParam) == WM_COMMAND_NOTIFY) {
 			ShowNotification(TEXT("Title"), TEXT("Description"));
 		}else if (LOWORD(wParam) == WM_COMMAND_NOTIF) {
-			ShowNotification(TEXT("Привет"), TEXT("Мир"));
+			ShowNotification(TEXT("Приветтттт"), TEXT("Мир"));
 		}
 		else if (LOWORD(wParam) == WM_COMMAND_EXIT) {
 			CleanUp();
